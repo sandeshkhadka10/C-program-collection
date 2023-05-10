@@ -2,7 +2,7 @@
 int main()
 {
 	int num=0,rem=0,sum=0,original=0;
-	printf("Enter the num: ");
+	printf("Enter the number: ");
 	scanf("%d",&num);
 	original=num;
 	while(num>0)
@@ -17,7 +17,8 @@ int main()
 	}
 	else
 	{
-		printf("It is not a palindrome");
+		printf("IT is not palindrome");
 	}
 	return 0;
+	
 }

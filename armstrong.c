@@ -2,9 +2,8 @@
 #include<math.h>
 int main()
 {
-	int num=0,rem=0,sum=0,original=0,original1=0;
-	int i=0;
-	printf("Enter the num: ");
+	int num=0,rem=0,sum=0,original=0,original1=0,i=0;
+	printf("Enter the number: ");
 	scanf("%d",&num);
 	original=num;
 	while(original!=0)
@@ -13,7 +12,7 @@ int main()
 		i++;
 	}
 	original1=original;
-	for(i=1;i<num;i++)
+	for(i=1;i<=num;i++)
 	{
 		rem=original%10;
 		sum=sum+pow(rem,i);
@@ -25,7 +24,7 @@ int main()
 	}
 	else
 	{
-		printf("It is not a armstrong");
+		printf("It is not armstrong");
 	}
 	return 0;
 }
